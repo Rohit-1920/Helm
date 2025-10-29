@@ -8,6 +8,7 @@ That can get messy — so Helm helps by packaging all these YAMLs into one reusa
 ## 📦 What is a Helm Chart?
 A Helm Chart is a folder containing all the Kubernetes manifests (YAML files) + a configuration file (values.yaml) that lets you customize them easily.
 Example structure - 
+```
 myapp/
  ├── Chart.yaml         # Info about the chart
  ├── values.yaml        # Default configuration values
@@ -15,6 +16,7 @@ myapp/
  │    ├── deployment.yaml
  │    ├── service.yaml
  │    └── ingress.yaml
+```
 
 ---
 
